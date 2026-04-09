@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Give Online – New Hope Baptist Church</title>
+    <meta name="description" content="Support the mission and ministries of New Hope Baptist Church through secure online giving.">
+    <meta name="robots" content="index,follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Give Online – New Hope Baptist Church">
+    <meta property="og:description" content="Make a secure online donation to support the ministries of New Hope Baptist Church.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/give-banner.jpg">
+    <meta property="og:url" content="https://yourdomain.com/give.html">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="logo">New Hope Baptist Church</div>
+    <nav class="nav" id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="ministries.html">Ministries</a>
+        <a href="watch.html">Watch/Listen</a>
+        <a href="events.html">Events</a>
+        <a href="give.html" class="active">Give</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</header>
+
+<section class="page">
+    <h1>Give Online</h1>
+    <p>Thank you for your generosity! Your contributions help us continue our mission and ministries.</p>
+
+    <div class="give-grid">
+
+        <!-- LEFT SIDE: DONATION DETAILS -->
+        <div class="give-card">
+            <h2>Make a Donation</h2>
+
+            <label>Donation Amount</label>
+            <input type="text" placeholder="e.g., 50.00">
+
+            <label>Frequency</label>
+            <select>
+                <option>One-time</option>
+                <option>Weekly</option>
+                <option>Monthly</option>
+                <option>Annually</option>
+            </select>
+
+            <label>Designate Fund (Optional)</label>
+            <select>
+                <option>General Fund</option>
+                <option>Missions</option>
+                <option>Building Fund</option>
+                <option>Youth Ministry</option>
+            </select>
+        </div>
+
+        <!-- RIGHT SIDE: PAYMENT INFO -->
+        <div class="give-card">
+            <h2>Payment Information</h2>
+
+            <label>Name on Card</label>
+            <input type="text" placeholder="John Doe">
+
+            <label>Card Number</label>
+            <input type="text" placeholder="**** **** **** ****">
+
+            <div class="two-col">
+                <div>
+                    <label>Expiry Date (MM/YY)</label>
+                    <input type="text" placeholder="MM/YY">
+                </div>
+                <div>
+                    <label>CVV</label>
+                    <input type="text" placeholder="***">
+                </div>
+            </div>
+
+            <label class="checkbox">
+                <input type="checkbox"> Donate Anonymously
+            </label>
+
+            <button class="btn full">Donate Now</button>
+
+            <p class="note">Your donation is securely processed through our online giving system.</p>
+            <p class="note">For any questions regarding donations, please contact us.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2023 New Hope Baptist Church. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
