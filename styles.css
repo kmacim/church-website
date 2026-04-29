@@ -438,4 +438,9 @@ footer {
         height: auto;
     }
 
-    
+    .center {
+        display: flexbox;
+        text-align: center;
+        padding: 5px;      
+       }
+}
